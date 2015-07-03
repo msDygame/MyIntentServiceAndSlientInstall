@@ -1,4 +1,4 @@
-﻿package com.dygame.myintentserviceandslientinstall;
+package com.dygame.myuncaughtexceptionhandler;
 
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -401,7 +401,7 @@ public class MyCrashHandler implements Thread.UncaughtExceptionHandler
     //Uncaught Exception Handler(Crash Exception)
     MyCrashHandler pCrashHandler = MyCrashHandler.getInstance();
     pCrashHandler.init(getApplicationContext());
-    //protected String TAG = "" ;
+    //protected static String TAG ;
     TAG = pCrashHandler.getTag() ;
  }
  和
